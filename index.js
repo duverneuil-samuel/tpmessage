@@ -7,7 +7,7 @@ function encodeMSG() {
 
 function urlGeneratore(codedMessage) {
     const baseURL = window.location.origin;
-    const trueURL = baseURL + '/' + codedMessage;
+    const trueURL = baseURL + '#' + codedMessage;
 
     seeURL(trueURL);
 }
